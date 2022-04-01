@@ -21,7 +21,7 @@ class SignIn extends Component {
 	onSignInSubmit = () => {
 
 		if (this.state.email.length > 0 && this.state.password.length > 0) {
-			fetch('https://ai-robots-api.com/signin', {
+			fetch('https://ai-robots-api.herokuapp.com/signin', {
 				method: 'post',
 				headers: {"Content-Type": "application/json"},
 				body: JSON.stringify({
