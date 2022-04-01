@@ -26,7 +26,7 @@ class RegistrationForm extends Component {
 
 		if (this.state.name.length > 0 && this.state.email.length > 0 && this.state.password.length > 0) {
 
-			fetch('http://localhost:3001/register', {
+			fetch('https://ai-robots-api.com/register', {
 					method: "post",
 					headers: {"Content-Type": "application/json"},
 					body: JSON.stringify({
