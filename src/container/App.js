@@ -76,7 +76,7 @@ class App extends Component {
     onButtonSubmit = () => {
       this.setState({targetedUrl: this.state.input}) 
 
-      fetch('http://localhost:3001/imageurl', {
+      fetch('https://ai-robots-api.herokuapp.com/imageurl', {
         method: 'post',
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
@@ -87,7 +87,7 @@ class App extends Component {
       .then(output => output.map(item => item.name))
       .then(names => this.setState({infoBox: names}))
 
-      fetch('http://localhost:3001/image' , {
+      fetch('https://ai-robots-api.herokuapp.com/image' , {
         method: 'put',
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
