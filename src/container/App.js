@@ -255,7 +255,7 @@ class App extends Component {
           options={allOptions} />
             <div className='tc flex justify-between'>
               <div className='pa3 w-50'>
-                <h1 className='f1'>RoboFriends</h1>
+                <h1 className='f1'>Search RoboFriends</h1>
                 <SearchField searchChange={onSearchChange} />
                 <Scroll>
                   <ErrorBoundary>
@@ -266,7 +266,7 @@ class App extends Component {
               <div className='pa3 w-50'>
                 <div className='flex in-line'>
                     <Logo />
-                    <h1 className='f1'>Facial Recognition</h1>
+                    <h1 className='f1'>Read That Picture</h1>
                     <SignOut onChangeRoute={this.changeRoute} />
                 </div>
                 <Rank setName={name} setEntries={entries} />

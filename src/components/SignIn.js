@@ -89,6 +89,8 @@ class SignIn extends Component {
 					      		onClick={this.onSignInSubmit} 
 					      	 />
 					    </div>
+
+							{/*
 					    <div className="">
 					      <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib mt3" 
 					      		type="submit" 
@@ -97,6 +99,8 @@ class SignIn extends Component {
 					      		onClick={() => onChangeRoute('register')} 
 					      	 />
 					    </div>
+						*/}
+
 				  </article>
 				</main>
 	</div>;
