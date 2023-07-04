@@ -79,7 +79,7 @@ class SignIn extends Component {
 							*/}
 
 
-							<legend className="f4 fw6 ph0 mh0">Ready to let Artificial Intelligence to read your pictures and find robotic friends?</legend>
+							<legend className="f4 fw6 ph0 mh0">Ready to let Artificial Intelligence read your pictures and find robotic friends?</legend>
 					    <div className="">
 					      <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
 					      		type="submit" 
