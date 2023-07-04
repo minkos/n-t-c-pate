@@ -20,6 +20,9 @@ class SignIn extends Component {
 
 	onSignInSubmit = () => {
 
+		this.props.onChangeRoute('home');
+
+		/*
 		if (this.state.email.length > 0 && this.state.password.length > 0) {
 			fetch('https://ai-robots-api.herokuapp.com/signin', {
 				method: 'post',
@@ -39,6 +42,8 @@ class SignIn extends Component {
 
 			})
 		}
+		*/
+
 	}
 
 	render() {
@@ -48,6 +53,8 @@ class SignIn extends Component {
 		return <div>
 				<main className="pa4 black-80">
 				  <article className="measure center">
+
+							{/*
 					    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
 					      <legend className="f4 fw6 ph0 mh0">Sign In</legend>
 					      <div className="mt3">
@@ -69,10 +76,14 @@ class SignIn extends Component {
 					        />
 					      </div>
 					    </fieldset>
+							*/}
+
+
+							<legend className="f4 fw6 ph0 mh0">Ready to let Artificial Intelligence to read your pictures and find robotic friends?</legend>
 					    <div className="">
 					      <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
 					      		type="submit" 
-					      		value="Sign in"
+					      		value="Click To Enter"
 					      		//use anonymous function when passing in variable
 					      		//onClick={() => onChangeRoute('home')}
 					      		onClick={this.onSignInSubmit} 
