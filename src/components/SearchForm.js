@@ -5,6 +5,9 @@ const SearchForm = ({ onInputChange, onButtonSubmit }) => {
 				<p className='f4'>
 					Know Your Next Move
 				</p>
+				<p className='f4'>
+					The image link MUST end with .jpeg or .jpg! For example, https://www.online-tech-tips.com/wp-content/uploads/2022/02/faces.jpeg or https://fileinfo.com/img/ss/xl/jpg_44-2.jpg
+				</p>
 				<div className='form center pa2 br3 shadow-5'>
 					<input className='f4 pa2 w-70 center mt2' 
 							type='search' 
